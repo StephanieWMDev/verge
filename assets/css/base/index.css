@@ -1,0 +1,17 @@
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=index.css.map */

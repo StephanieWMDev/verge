@@ -1,0 +1,89 @@
+
+
+ //Version: 1.1
+    //Last edited by: Stephanie Wang
+    //Last edit date: 16/07/2023 
+
+#store-address{
+    width:100%;
+    margin:auto;
+  
+   
+}
+#contact-us{
+    width:100%;
+    margin:auto;
+    margin-top:2%;margin-bottom:5%;
+
+   
+   
+}
+.container.contact-us{
+    padding: 15% 2% 2% 2%;
+    max-width:80%;
+    h2{
+        margin-bottom: 9%;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+button.btn.btn-primary.mt-4.me-auto {
+    font-size: 1.1rem;
+}
+.store-locator{
+    padding: 5% 2% 15% 2%;
+}
+table.table.table-hover.table-borderless{
+    max-width:48%;
+    margin:auto;
+    padding:1em 0.5rem;
+    position:relative;
+    left:2%;
+   
+}
+table.table.table-hover.table-borderless{
+    max-width:100%;
+    margin:auto;
+    padding:1em 0.5rem;
+    position:relative;
+    left:8%;
+   
+}
+@media screen and (min-width:700px)
+{
+    table.table.table-hover.table-borderless{
+        max-width:75%;
+        margin:auto;
+        padding:1em 0.5rem;
+        position:relative;
+        left:8%;
+       
+    }
+    .container.contact-us{
+        padding: 5% 2% 5% 2%;
+        max-width: 50%;
+        position: relative;
+        top: 7vw;
+        margin: auto;
+    
+    }
+}
+@media screen and (min-width:1200px)
+{
+   
+    table.table.table-hover.table-borderless{
+        max-width:48%;
+        margin:auto;
+        padding:1em 0.5rem;
+        position:relative;
+        left:2%;
+       
+    }
+    .container.contact-us{
+        padding: 5% 2% 2% 2%;
+        max-width:35%;
+    }
+    .store-locator{
+        padding: 2% 2% 7% 2%;
+    }
+}

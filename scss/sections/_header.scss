@@ -1,0 +1,315 @@
+
+
+ //Version: 1.1
+    //Last edited by: Stephanie Wang
+    //Last edit date: 16/07/2023 
+header{
+    width:100%;
+    margin:auto;
+    position: relative;
+    top: 4.5em;
+    margin-bottom: 20%;
+}
+.carousel-item.hd-1{
+    background-color:#5555a01c;
+    width:101%;
+}
+.carousel-item.hd-2{
+    background-color:#ffc0cb96;
+    width:101%;
+}
+.carousel-item.hd-3{
+    background-color:#f8f895ab;
+    width:101%;
+}
+img.d-block.img-fluid.w-75.img-header.float-end {
+    width: 100%;
+    height:auto;
+    margin: auto;
+    aspect-ratio:5/4;
+   
+    
+}
+img.d-block.img-fluid.img-header.img-header_1.float-end {
+    max-width: 77%;
+}
+.img-header_1{
+  
+    position: relative;
+    right: 8%;
+    top: 3vw;
+    aspect-ratio:5/4;
+
+
+}
+.img-header_2{
+    max-width: 77% !important;
+    position: relative;
+    right: 11%;
+    top: 0vw;
+    aspect-ratio: 5/4;
+
+}
+img.lazyload.d-block.img-fluid.img-header.img-header_3.float-end {
+    max-width: 77%;
+}
+img.d-block.img-fluid.img-header.img-header_3.float-end {
+    max-width: 77%;
+}
+.img-header_3{
+    position: relative;
+    right: 13%;
+    top: 3vw;
+    aspect-ratio:5/4;
+
+}
+.carousel-indicators {
+    opacity: 0;
+}
+
+@media screen and (min-width:771px){
+    
+}
+
+@media screen and (min-width:768px){
+    div#carouselExampleCaptions {
+        height: 20em;
+    }
+    .carousel-item{
+        height: 20em;
+    }
+    header.container .caroussel-item.hd-1 {
+        background-color: aliceblue;
+    }
+    img.d-block.img-fluid.img-header.float-end {
+        width: 60%;
+        margin: auto;
+      
+        
+    }
+    header{
+        width:100%;
+        margin:auto;
+        position: relative;
+        // top: 6.6vw;
+     
+    }
+    .img-header_1{
+        max-width: 50% !important;
+        position: relative;
+        right: 1%;
+        top: 7vw;
+    
+    
+    }
+    .img-header_2{
+        max-width:55% !important;
+        padding-bottom:1rem;
+       border-radius:30%;
+        position:relative;
+        right: 1%;
+        top: 3vw;
+        
+       
+    
+    }
+    .img-header_3{
+        max-width: 50% !important;
+        position: relative;
+        right: 9%;
+        top: 6vw;
+    
+    }
+    .cta-header {
+        position: relative;
+        top: 3.5em;
+        left:8%;
+        
+        h2{
+            
+            padding-bottom:0.4rem;
+            font-family: 'Lustra', sans-serif;
+            letter-spacing:0.075em;
+            word-spacing: 0.1em;
+            line-height:1.5;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-size:1.3rem;
+            padding-bottom:0.6rem;
+            letter-spacing:0.075em;
+            word-spacing: 0.1em;
+            line-height:1.5;
+        }
+        .btn{
+            font-size:1.1rem;
+            letter-spacing:0.075em;
+            word-spacing: 0.1em;
+            line-height:1.5;
+            font-family: 'Roboto', sans-serif;
+            width:9em;
+
+        }
+    
+
+    }
+}
+@media screen and (min-width:990px){
+    .img-header_2{
+        max-width: 50.4% !important;
+        position: relative;
+        right: 1%;
+        top: 1vw;
+       
+    
+    }
+}
+@media screen and (min-width:1024px){
+    .img-header_1{
+        max-width: 50.4% !important;
+        position: relative;
+        right: 1%;
+        top: 1vw;
+    
+    
+    }
+    .img-header_2{
+        max-width: 50.4% !important;
+        position: relative;
+        right: 3%;
+        top: 1vw;
+    
+    }
+    .img-header_3{
+        max-width: 50.4% !important;
+        position: relative;
+        right: 4%;
+        top: 1vw;
+    
+    }
+    div#carouselExampleCaptions {
+        height: 22.5em;
+    }
+    .carousel-item{
+        height: 22.5em;
+    }
+    .cta-header{
+       left:9%;
+       top:20%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .lg-header_content{
+        transform: translate(5%, 14%);
+    }
+    img.d-block.img-fluid.img-header.float-end {
+        width: 100%;
+        margin: auto;
+      
+        
+    }
+    .img-header_1{
+        max-width: 42.4% !important;
+    position: relative;
+    right: 3%;
+    top: 1vw;
+    
+    
+    }
+    .img-header_2{
+        max-width: 42.4% !important;
+        position: relative;
+        right: 3%;
+        top: 1vw;
+    
+    }
+    .img-header_3{
+        max-width: 42.4% !important;
+        position: relative;
+        right: 3%;
+        top: 1vw;
+    
+    }
+    .cta-header {
+        position: relative;
+        top: 1em;
+        left:6%;
+
+    }
+    .cta-header h2{
+        margin-bottom:0.4em;
+        letter-spacing: 0.1059rem;
+    }
+    .cta-header p.lead{
+        padding:0.344rem;
+        font-size: 1.28rem;
+    }
+    button.btn.btn-primary{
+        letter-spacing:0.07777rem;
+        padding:0.41rem 29.23px;
+        font-size:1.08rem;
+        width:12em;
+    }
+    
+}
+@media screen and (min-width:1300px){
+    
+    .img-header_1{
+        transform:translate(-18%);
+    }
+    .img-header_2{
+        transform:translate(-18%);
+    }
+    .img-header_3{
+        transform:translate(-18%);
+    }
+    .cta-2{
+        transform:translate(38%,17%);
+     }
+     .cta-1{
+        transform:translate(38%,17%);
+     }
+     .cta-3{
+        transform:translate(38%,17%);
+     }
+}
+@media screen and (min-width:1400px){
+    .lg-header_content{
+        transform: translate(5%, 22%);
+    }
+    .lg-header_content .header-content_2
+    {
+        transform: translate(5%, 26%);
+    }
+    .img-header_1{
+        max-width: 34.4% !important;
+        position: relative;
+        transform:translate(-28%);
+    
+    
+    }
+    .img-header_2{
+         max-width: 39% !important;
+        position: relative;
+        transform:translate(-28%);
+        top:-1vw;
+       
+    
+    }
+    .img-header_3{
+        max-width: 34.4% !important;
+        position: relative;
+        transform:translate(-28%);
+    
+    }
+    .cta-2{
+        transform:translate(66%,17%);
+     }
+     .cta-1{
+        transform:translate(66%,17%);
+     }
+     .cta-3{
+        transform:translate(66%,17%);
+     }
+}

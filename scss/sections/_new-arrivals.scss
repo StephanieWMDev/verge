@@ -1,0 +1,141 @@
+ //Version: 1.1
+    //Last edited by: Stephanie Wang
+    //Last edit date: 16/07/2023 
+#new-arrivals{
+  width:100%;
+  margin:auto;
+ 
+  img{
+    aspect-ratio:15/10;
+  }
+  .card-img, .card-img-top, .card-img-bottom {
+    width: 94%;
+    margin: auto;
+}
+h2{
+  letter-spacing:0.075em;
+  word-spacing: 0.1em;
+  line-height:1.5;
+}
+
+ 
+}
+.card-effect:hover{
+    opacity: 0.7;
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    -o-transform:scale(1.02);
+    transform:scale(1.02);
+  
+}
+.card-body:hover{
+  opacity: 0.7;
+  -webkit-transform:scale(1.02);
+  -moz-transform:scale(1.02);
+  -ms-transform:scale(1.02);
+  -o-transform:scale(1.02);
+  transform:scale(1.02);
+  transition:0.8s;
+
+}
+.card-1{
+  max-width: 19em;
+  margin:auto;
+  cursor:pointer;
+  
+  
+  
+}
+.card-2{
+  max-width: 19em;
+  margin:auto;
+  cursor:pointer;
+  
+ 
+}
+.card-3{
+  max-width: 19em;
+  margin:auto;
+  cursor:pointer;
+  
+  
+}
+.card-4{
+  max-width: 19em;
+  margin:auto;
+  cursor:pointer;
+  
+  
+}
+#new-arrivals{
+a{
+  font-weight: 700;
+  text-decoration:none;
+  color: #3a3c3b;
+}
+a.stretched-link.fs-4.bold {
+  color: black;
+}
+svg.bi.bi-arrow-right-circle {
+  transform: scale(3.9);
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width:767px){
+  #new-arrivals{
+    .card-group {
+      display: flex;
+      flex-flow: row wrap;
+      flex-direction: column;
+      align-content: center;
+  }
+  
+  }
+  #new-arrivals .card-img, #new-arrivals .card-img-top, #new-arrivals .card-img-bottom {
+    width: 100%;
+    margin: auto;
+}
+
+ 
+}
+
+
+@media screen and (min-width:539px) and (max-width:767px){
+  #new-arrivals{
+    .card-1, .card-2, .card-3, .card-4{
+      max-width:90%;
+      min-width:28em;
+   }
+   a {
+    font-size: 1.8rem;
+    letter-spacing:0.075em;
+    word-spacing: 0.1em;
+    line-height:1.5;
+   }
+  
+  }
+ 
+  
+}
+@media (min-width: 768px)and (max-width:994px){
+  #new-arrivals{
+   
+   .container.mb-5.pb-5 {
+    max-width: 46em;
+}
+  }
+.card-group > .card {
+   
+  min-width: 50%;
+  margin: auto 0%;
+  padding: 1% 1%;
+   
+}
+.card-group{
+  max-width: 92%;
+    margin: auto;
+}
+}

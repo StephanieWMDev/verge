@@ -1,0 +1,81 @@
+ //Version: 1.1
+    //Last edited by: Stephanie Wang
+    //Last edit date: 16/07/2023 
+
+    
+
+  @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Domine&family=Lustria&family=PT+Sans&display=swap');
+
+
+
+
+
+
+$font-family-base: 'Bitter', serif !important;
+
+body{
+   font-family:'Bitter', serif !important;
+   letter-spacing:0.075em;
+   word-spacing: 0.1em;
+   line-height:1.5;
+
+}
+
+html {
+    font-family:'Bitter', serif !important;
+    letter-spacing:0.075em;
+    word-spacing: 0.1em;
+    line-height:1.5;
+    scroll-behavior:smooth;
+   
+  }
+  main{
+    height:100vh;
+    overflow-y:scroll;
+    scroll-snap-type:y mandatory;
+
+  }
+  main > section{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lustria', sans-serif !important;
+  }
+  
+  pre, code, kbd, samp {
+    font-family: 'Bitter', serif;
+  }
+  
+  input, button, select, optgroup, textarea {
+    font-family: inherit;
+  }
+  
+  .tooltip {
+    font-family: 'Lustria', sans-serif !important;
+  }
+  
+  .popover {
+    font-family: 'Lustria', sans-serif !important;
+  }
+  
+  .text-monospace {
+    font-family: 'lustria', sans-serif !important;
+  }
+
+  $font-family-sans-serif:'Playfair Display', sans-serif !important;
+  img{
+    height:auto;
+  }
+
+.text-decoration-none{
+  text-decoration:none;
+}
+.fs-5 {
+  font-size: 1.15rem !important;
+}
+
+ 
+ 
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

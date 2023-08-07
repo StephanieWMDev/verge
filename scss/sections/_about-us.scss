@@ -1,0 +1,99 @@
+
+    //Version: 1.1
+    //Last edited by: Stephanie Wang
+    //Last edit date: 16/07/2023 
+#about-us{
+    width:100%;
+    margin:auto;
+    margin-bottom: 5%;
+        .d-flex{
+            flex-direction: column;
+            margin:auto;
+            padding:3%;
+        img{
+            width:100%;
+            margin:auto;
+            min-width:60%;
+        }
+        .d-flex .content{
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+         
+            
+        }
+        h1{
+            border-bottom:2px rgb(197, 74, 74) solid;
+            text-align: center;
+            max-width: fit-content;
+            margin:auto;
+            margin-bottom:0.6em;
+        }
+        p{
+            
+            text-align: justify;
+            max-width:85%;
+            margin:auto;
+            
+
+        }
+        .about-us_img{
+            max-width: 84%;
+            height:auto;
+            aspect-ratio:7/4;
+        }
+
+        h2.fs-2.about-title {
+            border-bottom: 0.133rem solid rgb(215, 99, 99);
+            width: fit-content;
+            margin: 5% auto 7% auto;
+            padding-bottom: 0.1rem;
+        }
+        
+    }
+}
+@media screen and (min-width:1023px){
+#about-us{
+     .container{
+
+         .d-flex.d-flex_cont{
+            flex-direction: row;
+            margin:auto;
+            padding:3%;
+            align-items:flex-start;
+            .about-us_img{
+                max-width:100%;
+                height:auto;
+                aspect-ratio:7/4;
+            }
+          
+          .d-flex .content{
+            display:flex;
+            flex-direction:column;
+             align-items:start;
+             text-align: start;
+          }
+             p{
+                text-align: start;
+                    text-align: start;
+                    position: relative;
+                    left: 17%;
+        }
+             h1{
+                text-align:start;
+        }
+        img{
+            width:100%;
+            margin:auto;
+            max-width:50%;
+            
+        }
+        
+    }
+      
+    
+}
+}
+}
+

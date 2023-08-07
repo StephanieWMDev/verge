@@ -1,0 +1,242 @@
+
+ //Version: 1.1
+    //Last edited by: Stephanie Wang
+    //Last edit date: 16/07/2023 
+#cotton{
+    width:100%;
+    margin:auto;
+    .container{
+        .d-flex.d-flex_cotton{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin: auto;
+    
+            justify-content: space-between;
+            gap: 7%;
+            margin-bottom: 6%;
+            margin-top: 15%;
+            padding: 1rem;
+            .cont-1{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 19%;
+                .content1{
+                    // display:flex;
+                    // flex-direction:column;
+                    // align-items:center;
+                    // justify-content: center;
+                    // max-width:50%;
+                    text-align: center;
+                    
+                    p{
+                        
+                        text-align: justify;
+                        word-spacing:0.1em;
+                        padding-right:0.2%;
+                        padding-bottom:8%;
+                    }
+                    h2{
+                        text-align: center;
+                        width: 57%;
+                        margin: 5% auto 8% auto;
+                        margin-bottom: 8%;
+                    }
+                }
+
+            }
+                .cont-2 {
+                    display: flex;
+                    flex-direction: column-reverse;
+                        
+                    .content2{
+                        // display:flex;
+                        // flex-direction:column;
+                        // align-items:end;
+                        // justify-content: center;
+                        // max-width:40%;
+                        text-align: center;
+                        p{
+                            
+                            text-align: justify;
+                            word-spacing:0.1em;
+                            padding-right:0.2%;
+                            padding-bottom:8%;
+                        }
+                        h2{
+                            text-align: center;
+                            width: 57%;
+                            margin: 5% auto 8% auto;
+                            margin-bottom: 8%;
+                        }
+                        
+                    }
+
+                }
+                
+
+            
+            
+           
+            img{
+                width: 95%;
+                margin: auto;
+                margin-bottom:2%;
+                aspect-ratio:5/3;
+            }
+            .img-cotton_1{
+           
+            }
+          
+        }
+        .heading_cotton{
+            border-bottom: 3px rgb(215, 99, 99) solid;
+            padding-bottom: 1rem;
+        }
+       
+        button {
+            font-size: 1rem;
+        }
+    }
+}
+
+
+
+
+@media screen  and (min-width:539px){
+    .content1{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        max-width:40%;
+        p{
+            display:inline-block;
+            text-align: justify;
+            word-spacing:0.1em;
+            min-width: 33ch;
+        }
+        h2{
+            text-align: start;
+        } 
+        button.btn.btn-dark.pt-sm-2.pb-sm-2.pe-sm-2.ps-sm-2.pt-md-2.pb-md-2.pe-md-4.ps-md-4.w-75 {
+            font-size: 1.6rem;
+        }
+    }
+    #cotton .container .d-flex.d-flex_cotton .cont-1 .content1 h2 {
+            
+        width: 100%;
+      
+    }
+    #cotton .container .d-flex.d-flex_cotton .cont-2 .content2 h2 {
+        
+        width: 100%;
+       
+    }
+    .content2{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        max-width:40%;
+        p{
+            display:inline-block;
+            text-align: justify;
+            word-spacing:0.1em;
+            padding-right:0.2%;
+            
+                min-width: 33ch;
+        
+        }
+        h2{
+            text-align: end;
+        }
+        
+    }
+}
+@media screen and (min-width:768px){
+    #cotton{
+
+        .container{
+            .d-flex{
+             
+                .content1{
+                  
+                    
+                    P{
+                        display:inline-block;
+                        text-align: justify;
+                        word-spacing:0.1em;
+                        padding-right:0.2%;
+                    }
+                    h2{
+                        text-align: start;
+                    }
+                }
+                .content2{
+                 
+                    P{
+                        display:inline-block;
+                        text-align: justify;
+                        word-spacing:0.1em;
+                        padding-right:0.2%;
+                    }
+                    h2{
+                        text-align: end;
+                    }
+                    
+                }
+                
+                   
+                     img {
+                        max-width: 63%;
+                       
+                    }
+            
+                .img-cotton_1{
+                    margin-left:6.6%;
+                }
+              
+            }
+            .heading_cotton{
+                border-bottom:2px rgb(215, 99, 99) solid;
+                padding-bottom:0.3rem;
+            }
+           
+           
+        }
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    #cotton .container .d-flex.d-flex_cotton img {
+        width: 49%;
+        margin: auto;
+        margin-bottom: 2%;
+        aspect-ratio: 5/3;
+    }
+    #cotton .container .d-flex.d-flex_cotton .cont-1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 19%;
+        align-items: flex-start;
+    }
+    #cotton .container .d-flex.d-flex_cotton .cont-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    #cotton .container .d-flex.d-flex_cotton .cont-1 .content1 h2 {
+        width: 76%;
+        padding-bottom: 4%;
+    }
+    #cotton .container .d-flex.d-flex_cotton .cont-2 .content2 h2 {
+        width: 76%;
+        padding-bottom: 4%;
+    }
+    button.btn.btn-dark.pt-sm-2.pb-sm-2.pe-sm-2.ps-sm-2.pt-md-2.pb-md-2.pe-md-4.ps-md-4.w-75 {
+        font-size: 1.3rem;
+    }
+}
